@@ -9,7 +9,8 @@ public class Base_mech_controller : MonoBehaviour
     Vector3 move_vec;   //위 두 개를 합쳐서 만든
     Animator animator;
 
-    bool jump;
+    bool j_down, is_jump;
+
 
 
     // Start is called before the first frame update
@@ -40,5 +41,25 @@ public class Base_mech_controller : MonoBehaviour
     {
         if (h_axis >= v_axis) return h_axis;
         else return v_axis;
+    }
+
+    void GetInput()
+    {
+
+    }
+
+    void Move()
+    {
+
+    }
+
+    void Turn()
+    {
+
+    }
+
+    void Jump()
+    {
+
     }
 }
