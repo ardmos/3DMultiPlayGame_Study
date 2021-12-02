@@ -1,24 +1,29 @@
 fileFormatVersion: 2
-guid: 3918c65d76752644b88034a03531232f
+guid: f4c947434de2e5f40b7d02775bbf0299
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable:
   - first:
       74: -7151699867823042650
-    second: Attack
+    second: "\uC544\uB9C8\uD29C\uC5B4|Attack"
   - first:
       74: 7780236524212964778
-    second: Idle
+    second: "\uC544\uB9C8\uD29C\uC5B4|Idle"
   - first:
       74: 8034784051403107514
-    second: Jump
+    second: "\uC544\uB9C8\uD29C\uC5B4|Jump"
   - first:
       74: -9178764447734441153
-    second: Walk
+    second: "\uC544\uB9C8\uD29C\uC5B4|Walk"
   - first:
       74: -5311723820964092182
     second: head|Idle
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: palette.020
+    second: {fileID: 2100000, guid: b62a8ea6aed8c844ba44ed2bfbe6953c, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -47,7 +52,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Attack
+      name: "\uC544\uB9C8\uD29C\uC5B4|Attack"
       takeName: "\uC544\uB9C8\uD29C\uC5B4|Attack"
       internalID: 0
       firstFrame: 0
@@ -76,7 +81,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Idle
+      name: "\uC544\uB9C8\uD29C\uC5B4|Idle"
       takeName: "\uC544\uB9C8\uD29C\uC5B4|Idle"
       internalID: 0
       firstFrame: 0
@@ -87,7 +92,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -105,7 +110,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Jump
+      name: "\uC544\uB9C8\uD29C\uC5B4|Jump"
       takeName: "\uC544\uB9C8\uD29C\uC5B4|Jump"
       internalID: 0
       firstFrame: 0
@@ -134,7 +139,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Walk
+      name: "\uC544\uB9C8\uD29C\uC5B4|Walk"
       takeName: "\uC544\uB9C8\uD29C\uC5B4|Walk"
       internalID: 0
       firstFrame: 0
@@ -145,7 +150,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
