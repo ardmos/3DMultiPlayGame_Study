@@ -18,7 +18,7 @@ public class ThirdPersonMovement : MonoBehaviour
     float horizontal;
     float vertical;    
     public float speed = 12f;
-    public float turn_smooth_time = 0.1f;    
+    public float turn_smooth_time = 0.02f;    
     float turn_smoot_velocity;    
     Vector3 direction;
 
@@ -78,8 +78,7 @@ public class ThirdPersonMovement : MonoBehaviour
             transform.rotation = Quaternion.Euler(0f, angle, 0f);
 
             Vector3 moveDir = Quaternion.Euler(0f, target_angle, 0f) * Vector3.forward;
-            controller.Move(moveDir.normalized * speed * Time.deltaTime);            
-            //controller.Move(direction * speed * Time.deltaTime);
+            controller.Move(moveDir.normalized * speed * Time.deltaTime);                        
         }
     }
 
